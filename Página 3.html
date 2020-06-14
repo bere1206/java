@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Página 3</title>
+</head>
+<body onload="ciclo();">
+
+	<script type="text/javascript">
+		var num=parseInt(prompt("Ingresa número de cajas"));
+		function ciclo(){
+		var i;
+		if(i<8){
+			document.write('<article id="caja" style="background-color: #ff56ed; color:#fff;"></article>');
+			i++;
+		}
+		else{
+			document.write('<article id="caja" style="background-color: #000; color:#fff;"></article>');
+			i++;
+		}
+		}
+	</script>
+</body>
+</html>
